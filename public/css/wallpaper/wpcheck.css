@@ -1,0 +1,157 @@
+li {
+    float: left;
+    margin: 2px 2px;
+    padding: 2px;
+}
+a {
+    text-decoration:none;
+}
+
+.content {
+    padding: 2px;
+    border: 1px solid #00DA40;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}
+
+.content img {
+    width: 147px;
+    height: 130px;
+}
+
+.box {
+    position: relative;
+    float: left;
+}
+
+.list-alt{
+    cursor: pointer;
+}
+.img-cover{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    top: 300px;
+    left: 80px;
+    position: absolute;
+    color: #ff0000;
+}
+
+.pass-cover{
+    font-size: 100px;
+    font-weight: 900;
+    left: 40px;
+    position: absolute;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.container {
+    top: 40px;
+    position: relative;
+}
+
+/*状态颜色*/
+.pub-status span[wait-confirm]{
+    color: #FF0000;
+}
+
+.pub-status span[wait-pub]{
+    color: #00AAFF;
+}
+
+.pub-status span[pub]{
+    color: #119900;
+}
+
+/*复制链接的样式*/
+#img-link-copy{
+    position: absolute;
+}
+
+.type-list a{
+    cursor:pointer;
+}
+
+/*浏览专题图片*/
+.sp-img img{
+    margin: 5px 5px 0 0;
+    height: 160px;
+    width: 90px;
+    cursor: pointer;
+}
+.sp-count{
+    float: left;
+    margin-right: 50px;
+}
+
+.count-check{
+    clear:both;
+    margin-top: 10px;
+}
+
+#main_table {
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.modal-header{
+    text-align: center;
+}
+
+#img-container{
+    position: relative;
+    float: left;
+}
+
+.modal-body,#img-about{
+    overflow: hidden;
+}
+
+#img-container{
+    margin: 0 40px 0 40px;
+    overflow: hidden;
+}
+
+#img-about .form-group{
+    margin: 0;
+}
+
+#img-about a{
+    margin-right: 5px;
+}
+
+#img-decribe{
+    overflow: hidden;
+}
+
+#img-content,#img-mask{
+    width: 360px;
+    height: 640px;
+}
+
+#img-mask{
+    position: absolute;
+}
+
+#img-title,#img-title-en{
+    font-weight: 900;
+}
+
+#img-modal-mask-btn{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.img-src{
+    margin-bottom: 15px;
+}
+
+.modal-dialog{
+    width: 850px;
+}
+
+.model-part{
+    margin-top : 10px;
+}
+

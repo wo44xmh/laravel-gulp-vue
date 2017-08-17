@@ -1,0 +1,85 @@
+table, th{
+    text-align: center;
+}
+
+.add-item, .btn-option {
+    float: right;
+    display: inline-block;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    margin-top: -4px;
+    margin-right: -15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: #337AB7;
+    border-color: #2E6DA4;
+}
+.add-item:hover, .btn-option:hover {
+    color: #FFF;
+    background-color: #2C577B;
+}
+
+.item-list .sort input{ width:40px}
+.item-list .sort a{ cursor:pointer; padding:0 3px;text-decoration:none}
+.preview{ overflow:hidden;width:100%; }
+.preview ul{ width:10000px; padding:0}
+.preview ul li{ list-style:none;float:left;padding:0 3px;}
+.preview ul li img{ width:180px;}
+
+.recommend .list{padding:0 3px}
+.recommend a{display:block}
+.recommend img{width:250px }
+.red{color:#F00 }
+.hide{ display:none }
+
+.theme-form-inline {
+    width: 20%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd){background-color:#EFEFEF}
+
+.form-group label{width:80px;text-align:right}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+input[readonly]
+{
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+#preview-mark-theme span {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    opacity: 0.8;
+    background-color: white;
+}

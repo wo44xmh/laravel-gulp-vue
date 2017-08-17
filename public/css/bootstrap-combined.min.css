@@ -1,0 +1,86 @@
+.control-group.error .input-prepend .add-on, .control-group.error .input-append .add-on {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #b94a48
+}
+.control-group.success .input-prepend .add-on, .control-group.success .input-append .add-on {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #468847
+}
+
+.control-group.info .input-prepend .add-on, .control-group.info .input-append .add-on {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #3a87ad
+}
+.input-append .add-on, .input-prepend .add-on {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    /*text-align: center;*/
+    /*text-shadow: 0 1px 0 #fff;*/
+    /*background-color: #eee;*/
+    /*border: 1px solid #ccc*/
+}
+
+.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group > .dropdown-toggle, .input-prepend .btn-group > .dropdown-toggle {
+    vertical-align: top;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0
+}
+.input-prepend .add-on, .input-prepend .btn {
+    margin-right: -1px
+}
+
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px
+}
+.input-append .add-on, .input-append .btn, .input-append .btn-group {
+    margin-left: -1px
+}
+
+.input-append .add-on:last-child, .input-append .btn:last-child, .input-append .btn-group:last-child > .dropdown-toggle {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0
+}
+.input-prepend.input-append .add-on:first-child, .input-prepend.input-append .btn:first-child {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px
+}
+
+.input-prepend.input-append .add-on:last-child, .input-prepend.input-append .btn:last-child {
+    margin-left: -1px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0
+}
+.form-time{
+    width: 20%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+}

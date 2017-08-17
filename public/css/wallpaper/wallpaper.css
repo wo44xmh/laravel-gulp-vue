@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#sortable li {
+    float: left;
+    margin: 2px 2px;
+    padding: 2px;
+}
+
+/*#sortable .add-wallpaper {*/
+/*height: 130px;*/
+/*width: 150px;*/
+/*}*/
+#sortable .add-wallpaper {
+    height: 135px;
+    margin: 2px 4px;
+    width: 153px;
+}
+
+.box {
+    position: relative;
+    float: left;
+}
+
+.content {
+    padding: 2px;
+    /*border: 1px solid #00DA40;*/
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}
+
+.content img {
+    width: 147px;
+    height: 130px;
+}
+
+.content .dropzone {
+    padding: 0;
+    min-height: 130px;
+    background-color: transparent;
+}
+
+.content span {
+    position: absolute;
+    top: 65px;
+    left: 70px;
+    color: #428bca;
+}
+
+.content .dz-message {
+    /*padding: 20px 40px;*/
+}
+
+.box .sort {
+    position: absolute;
+    /*bottom: 4px;*/
+    top: 4px;
+    left: 4px;
+}
+
+.box .sort input {
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.35);
+    width: 30%;
+    color: #fff;
+    border: none;
+}
+
+.box .edit {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.box .edit #J-Modal {
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    padding: 0 3px;
+}
+
+.d1 {
+    width: 800px;
+}
+
+.d2 {
+    padding: 10px 20px;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.column {
+    height: 135px;
+    width: 153px;
+    cursor: move;
+}
+
+.column.over {
+    border: 2px dashed #000;
+}
+
+.column.drag {
+    opacity: 0.4;
+    border: 2px dashed #000;
+}
+
+#preview {
+    z-index: 1000;
+    width: 540px;
+    height: 480px;
+    background-color: black;
+    bottom: 4px;
+    position: fixed;
+    text-align: center;
+    margin: 0 auto;
+}
+#preview .pannel{
+    margin: 0 auto;
+    position: relative;
+}
